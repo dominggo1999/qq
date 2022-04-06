@@ -19,5 +19,8 @@
     "eslint-plugin-import": "^2.25.4",
     "nodemon": "^2.0.15",
     "vite": "^2.9.1"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1"
   }
 }
