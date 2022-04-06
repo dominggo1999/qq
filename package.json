@@ -1,0 +1,23 @@
+{
+  "name": "qq",
+  "version": "1.0.0",
+  "description": "qq",
+  "main": "index.js",
+  "scripts": {
+    "start": "node /lib/index.js"
+  },
+  "bin": {
+    "qq": "./bin/demo-global.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "preferGlobal": true,
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.3",
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "nodemon": "^2.0.15",
+    "vite": "^2.9.1"
+  }
+}
